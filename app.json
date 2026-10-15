@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Tic Tac Toe",
+    "slug": "tic-tac-toe",
+    "scheme": "tictactoe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.alperenynk.tictactoe" },
+    "android": {
+      "package": "com.alperenynk.tictactoe",
+      "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#0F1220" }
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-splash-screen", { "image": "./assets/icon.png", "backgroundColor": "#0F1220", "imageWidth": 160 }]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}
